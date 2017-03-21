@@ -1,0 +1,19 @@
+extends layout
+
+block content
+  each kit in Object.keys(deps)
+    h2= kit
+
+    table
+      tr
+        th Name
+        th Dependency name
+        th Expected version
+        th Current version
+
+      each project in deps[kit]
+        tr
+          td= project.name
+          td= project.dependency
+          td= project.expected
+          td= project.is
