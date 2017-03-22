@@ -13,7 +13,8 @@ block content
 
       each project in deps[kit]
         tr
-          td= project.name
+          td
+            a(href=`http://github.com/prismicio/${project.name}` target="_blank")= project.name
           td= project.dependency
           td= project.expected
           td= project.is

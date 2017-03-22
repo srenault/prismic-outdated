@@ -175,6 +175,6 @@ function run(tree, callback) {
 
 module.exports = {
   check(cb) {
-    run(DEPENDENCIES, cb)
+    run(DEPENDENCIES, cb);
   },
 };
