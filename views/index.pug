@@ -10,6 +10,7 @@ block content
         th Dependency name
         th Expected version
         th Current version
+        th Status
 
       each project in deps[kit]
         tr
@@ -18,3 +19,6 @@ block content
           td= project.dependency
           td= project.expected
           td= project.is
+          td
+            a(href=`https://david-dm.org/prismicio/${project.name}`)
+              img(src=`https://david-dm.org/prismicio/${project.name}/status.svg` alt="dependencies status")
