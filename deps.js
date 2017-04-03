@@ -11,6 +11,7 @@ const DEPENDENCIES = {
       },
       'prismic-cli': {},
       'reactjs-starter': {},
+      'angular2-starter': {},
     },
   },
   php: {
