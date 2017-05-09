@@ -7,7 +7,16 @@ const DEPENDENCIES = {
     repo: 'javascript-kit',
     projects: {
       'prismic-nodejs': {
-        'nodejs-sdk': {},
+        'nodejs-sdk': {
+        },
+        'nodejs-blog': {
+        },
+        'nodejs-gallery-slice': {
+        },
+        'nodejs-website': {
+        },
+        'nodejs-example-snipcart': {
+        }
       },
       'prismic-cli': {},
       'reactjs-starter': {},
